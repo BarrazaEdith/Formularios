@@ -1,0 +1,29 @@
+<!DOCTYPE html><!-- html 5-->
+<html lang="en"><!-- en idioma ingles-->
+<!--Edith Jimena Barraza Reyes 0802 5-J-->
+
+<head>
+<meta charset="UTF-8"><!--se usa para poder poner acentos y emojis en la pagina web-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--el ancho de la pagina es igual al del dispositivo-->
+<title>Formularios en HTML EJBR-0802</title><!--titulo de la pagina web-->
+<!-- Libreria de iconos en linea -->
+G
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
+awesome/7.3.1/css/all.min.css">
+
+</head>
+<body>
+<h1>Formulario con limitaciones</h1><!--itulo importante-->
+<form action="" method="post"><!--el form mandara los datos a la pagina " " ocultandolos con post-->
+Ingresa tu nombre:
+<input type="text" name="nombre" disabled><!--solo acepta tipo de dato texto con el nombre de variable disabled-->
+<br><!--salto de linea-->
+Contraseña:
+<input type="password" name="pass" maxlength="5"><!--type password : Oculta los caracteres que el usuario escribe,asigna el identificador cuando los datos sean enviados y establece un maximo de 5 caracteres-->
+<br><!--salto de linea-->
+Comentarios:
+<textarea name="comentarios" readonly>Este es mi comentario y no se puede borrar</textarea><!-- textarea Crea un cuadro donde se puede escribir texto extenso en varias líneasy readonly ahce que los datos solo se puedan leer-->
+<br><!--salto de linea-->
+</form>
+</body>
+</html>
