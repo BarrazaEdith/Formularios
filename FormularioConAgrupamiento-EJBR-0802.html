@@ -1,0 +1,42 @@
+<!DOCTYPE html><!-- html 5-->
+<html lang="en"><!-- en idioma ingles-->
+<!--Edith Jimena Barraza Reyes 0802 5-J-->
+
+<head>
+<meta charset="UTF-8"><!--se usa para poder poner acentos y emojis en la pagina web-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--el ancho de la pagina es igual al del dispositivo-->
+<title>Formularios en HTML EJBR-0802</title><!--titulo de la pagina web-->
+<!-- Libreria de iconos en linea -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
+awesome/7.3.1/css/all.min.css">
+
+</head>
+<body>
+
+<h2>Formularios con agrupamiento</h2><!--titulo importante-->
+<form action="" method="post"><!--los datos guardados en font se quedaran en la pagina y post los ocultara-->
+<fieldset><!--Crea un recuadro o sección alrededor del grupo de campos para organizarlos visualmente-->
+<legend>Datos personales</legend><!-- pone un titulo sobre el borde del recuadro-->
+Nombre y apellido:
+<input type="text" name="nombre_apellido"><br><!-- solo acepta tipo de datos text en la variable nombre y apellido-->
+Documento valido:
+<input type="file" name="documento"><br><!-- solo acepta tipos de datos guardado en la computadora/telefono en la variable documento-->
+Fecha de nacimiento:
+<input type="date" name="fecha_nacimiento"><!--solo acepta tipos de dato fecha en la variable fechanacimiento-->
+</fieldset><!--cierra el recuadro-->
+<fieldset><!--otro recuadro-->
+<legend>Datos de estudio:</legend><!--sirve como título o encabezado descriptivo-->
+Nombre de la escuela:
+<input type="text" name="escuela"><br><!--solo acepta tipo de dato texto en la variable escuela-->
+Certificado valido:
+<input type="file" name="certificado"><br><!--solo acepta tipo de dato archivo-->
+Fecha de egreso:
+<input type="date" name="fecha_egreso"><!--solo acepta tipo de dato fecha-->
+</fieldset><!--se cierra el recuadro-->
+<br><!--salto de pagina-->
+<button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i> </button><!-- button type define que su funcion es enviar los datos,i class inserta el icono(en este caso el avion de papel)en el boton -->
+<button type="reset">Borrar <i class="fa fa-trash"></i></button><!--borra los datos e inserta el icono de bote de basura en el boton-->
+</form>
+</body>
+</html>
